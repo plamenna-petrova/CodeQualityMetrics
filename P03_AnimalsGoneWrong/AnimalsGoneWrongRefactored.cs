@@ -25,13 +25,13 @@ namespace P03_AnimalsGoneWrong
                 Breed = breed;
             }
 
-            protected virtual void Walk() 
+            protected virtual void Walk()
             {
                 Console.WriteLine("Waling");
             }
         }
 
-        public class Swimmer : Animal 
+        public class Swimmer : Animal
         {
             public Swimmer(string breed)
                 : base(breed)

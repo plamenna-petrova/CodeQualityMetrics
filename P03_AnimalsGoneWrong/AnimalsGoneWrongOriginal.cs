@@ -15,13 +15,13 @@ namespace P03_AnimalsGoneWrong
                 Breed = breed;
             }
 
-            protected virtual void Walk() 
+            protected virtual void Walk()
             {
                 Console.WriteLine("An animal is walking");
             }
         }
 
-        public class Cat : Animal 
+        public class Cat : Animal
         {
             public string Name { get; set; }
 
@@ -37,10 +37,10 @@ namespace P03_AnimalsGoneWrong
             }
         }
 
-        public class Fish : Animal 
+        public class Fish : Animal
         {
             public Fish(string breed)
-                : base (breed)
+                : base(breed)
             {
 
             }
