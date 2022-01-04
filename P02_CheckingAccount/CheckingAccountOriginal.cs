@@ -7,17 +7,25 @@ namespace P02_CheckingAccount
     public class CheckingAccountOriginal
     {
         public int AccountNumber { get; set; }
+
         public string CustomerName { get; set; }
+
         public string Email { get; private set; }
 
         public string Address { get; set; }
+
         public int ZipCode { get; set; }
+
         public string City { get; set; }
+
         public string State { get; set; }
+
         public string Country { get; set; }
 
         public string SocialSecurityNumber { get; set; }
+
         public DateTime ActiveDate { get; set; }
+
         public string GetSSNLast4Digits()
         {
             int index = SocialSecurityNumber.LastIndexOf("-", StringComparison.Ordinal);
