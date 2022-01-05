@@ -6,7 +6,7 @@ namespace P02_CheckingAccount
 {
     public class Customer
     {
-        public string CustomerName { get; set; }
+        public string Name { get; set; }
 
         public string Email { get; private set; }
     }
@@ -37,7 +37,7 @@ namespace P02_CheckingAccount
 
     public class CheckingAccountRefactored
     {
-        public int AccountNumber { get; set; }
+        public string AccountNumber { get; set; }
 
         public Customer Customer { get; set; }
 
@@ -47,25 +47,25 @@ namespace P02_CheckingAccount
 
         public SocialSecurity SocialSecurity { get; set; }
 
-        public CheckingAccountRefactored(int accountNumber, DateTime activeDate)
+        public CheckingAccountRefactored(string accountNumber, DateTime activeDate)
         {
             AccountNumber = accountNumber;
             ActiveDate = activeDate;
         }
 
-        public CheckingAccountRefactored(int accountNumber, DateTime activeDate, Customer customer)
+        public CheckingAccountRefactored(string accountNumber, DateTime activeDate, Customer customer)
             : this(accountNumber, activeDate)
         {
             Customer = customer;
         }
 
-        public CheckingAccountRefactored(int accountNumber, DateTime activeDate, Customer customer, Address address)
+        public CheckingAccountRefactored(string accountNumber, DateTime activeDate, Customer customer, Address address)
             : this(accountNumber, activeDate, customer)
         {
             Address = address;
         }
 
-        public CheckingAccountRefactored(int accountNumber, Customer customer, Address address, DateTime activeDate, SocialSecurity socialSecurity)
+        public CheckingAccountRefactored(string accountNumber, Customer customer, Address address, DateTime activeDate, SocialSecurity socialSecurity)
             : this(accountNumber, activeDate, customer, address)
         {
             SocialSecurity = socialSecurity;

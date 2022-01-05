@@ -6,7 +6,7 @@ namespace P02_CheckingAccount
 {
     public class CheckingAccountOriginal
     {
-        public int AccountNumber { get; set; }
+        public string AccountNumber { get; set; }
 
         public string CustomerName { get; set; }
 
@@ -34,7 +34,7 @@ namespace P02_CheckingAccount
                 : SocialSecurityNumber;
         }
 
-        public CheckingAccountOriginal(int accountNumber, string customerName, string email, string address, int zipCode, string city, string state, string country, string socialSecuriyNumber, DateTime activeDate)
+        public CheckingAccountOriginal(string accountNumber, string customerName, string email, string address, int zipCode, string city, string state, string country, string socialSecuriyNumber, DateTime activeDate)
         {
             AccountNumber = accountNumber;
             CustomerName = customerName;
