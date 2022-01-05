@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01_GildedRoseRefactoringKa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02_CheckingAccount", "P02_CheckingAccount\P02_CheckingAccount.csproj", "{04E3A5DB-FAE7-4C17-95CF-545AF97D5CB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03_AnimalsGoneWrong", "P03_AnimalsGoneWrong\P03_AnimalsGoneWrong.csproj", "{4BBCE66D-4E4E-4D7F-9D7A-5CE0735F61DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03_AnimalsGoneWrong", "P03_AnimalsGoneWrong\P03_AnimalsGoneWrong.csproj", "{4BBCE66D-4E4E-4D7F-9D7A-5CE0735F61DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04_SavingsAccount", "P04_SavingsAccount\P04_SavingsAccount.csproj", "{B8104913-DDEC-4322-85DC-F29ADBB77F4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04_SavingsAccount", "P04_SavingsAccount\P04_SavingsAccount.csproj", "{B8104913-DDEC-4322-85DC-F29ADBB77F4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05_PhoneFormatter", "P05_PhoneFormatter\P05_PhoneFormatter.csproj", "{543D13F0-F40A-49D8-9EBA-8C1C7C8931EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B8104913-DDEC-4322-85DC-F29ADBB77F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8104913-DDEC-4322-85DC-F29ADBB77F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8104913-DDEC-4322-85DC-F29ADBB77F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543D13F0-F40A-49D8-9EBA-8C1C7C8931EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543D13F0-F40A-49D8-9EBA-8C1C7C8931EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543D13F0-F40A-49D8-9EBA-8C1C7C8931EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543D13F0-F40A-49D8-9EBA-8C1C7C8931EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
